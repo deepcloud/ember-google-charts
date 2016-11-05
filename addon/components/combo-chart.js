@@ -1,9 +1,9 @@
 import GoogleChart from './google-chart';
-import renderMaterialChart from 'ember-google-charts/utils/render-material-chart';
+import renderClassicChart from 'ember-google-charts/utils/render-classic-chart';
 
 export
 default GoogleChart.extend({
   type: 'combo',
 
-  renderChart: renderMaterialChart,
+  renderChart: renderClassicChart,
 });
